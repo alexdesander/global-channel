@@ -1,0 +1,15 @@
+[package]
+name = "global-channel"
+version = "0.1.0"
+edition = "2021"
+authors = ["alexdesander <alexdesander@tuta.io>"]
+description = "Simple global channels."
+keywords = ["channel", "global", "sync", "message", "command"]
+categories = ["concurrency"]
+repository = "https://www.github.com/alexdesander/global-channel"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+crossbeam-channel = "0.5.14"
+paste = "1.0.15"
+sync-unsafe-cell = "0.1.1"
