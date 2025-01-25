@@ -1,5 +1,5 @@
 /// Creates a new global/static channel with the given name, bounds and item type.
-/// 
+///
 /// Usage example: global_channel!(name, None, u32); // Unbounded channel of u32
 #[macro_export]
 macro_rules! global_channel {
@@ -46,7 +46,7 @@ macro_rules! global_channel {
                 unsafe { &*(*[<__ $channel_name _RX>].get()).as_ptr() }
             }
         }
-    }
+    };
 }
 
 #[cfg(test)]
