@@ -6,7 +6,7 @@ authors = ["alexdesander <alexdesander@tuta.io>"]
 description = "Simple global channels."
 keywords = ["channel", "global", "sync", "message", "command"]
 categories = ["concurrency"]
-repository = "https://www.github.com/alexdesander/global-channel"
+repository = "https://github.com/alexdesander/global-channel"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 
